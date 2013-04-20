@@ -1,0 +1,265 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<style type="text/css">
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 1em;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-size: 1em;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background-image:url(images/debut_light.png);
+	background-repeat: repeat;
+	font-size: 100%;
+}
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GoudyBookletter1911Regular';
+    src: url('fonts/goudy_bookletter_1911-webfont.eot');
+    src: url('fonts/goudy_bookletter_1911-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/goudy_bookletter_1911-webfont.woff') format('woff'),
+         url('fonts/goudy_bookletter_1911-webfont.ttf') format('truetype'),
+         url('fonts/goudy_bookletter_1911-webfont.svg#GoudyBookletter1911Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#wrapper {
+	margin:0 auto;
+	width: 80%;
+	-webkit-border-radius: 0px 5px 0px 5px;
+    border-radius: 0px 5px 0px 5px;
+	overflow:auto;
+}
+
+header {
+	font-family:BebasNeueRegular, Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	letter-spacing: 0.2em;
+	padding-top: 0.25em;
+	padding-left: 0.25em;
+	background-color: #ffffff;
+	margin-top: 0.4em;
+}
+
+header h1 {
+	margin: 0;
+	padding-top: 0.6em;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 0.9em;
+	font-family: inherit;
+	vertical-align: baseline;
+	float:left;	
+}
+
+a {
+	text-decoration:none;
+	color:#000000;
+}
+
+h1 a:hover {
+	color: red;
+	text-decoration:none;
+}
+
+header h2 {
+	font-family:GoudyBookletter1911Regular, "Times New Roman", Times, serif;
+	letter-spacing: 0.1em;
+	margin: 0;
+	padding-top: 1.35em;
+	border: 0;
+	outline: 0;
+	font-size: 0.5em;
+	vertical-align: baseline;
+	float:left;	
+}
+
+
+
+.clearfix {
+	clear:both;
+}
+
+#league {
+	text-align:right;
+	width: 300px;
+	float:right;
+	overflow:hidden;
+}
+
+#article1-text {
+	font-family: GoudyBookletter1911Regular, "Times New Roman", Times, serif;
+	float:right;
+	width: 25%;
+	padding: 1em 1em 0 1em;
+	line-height: 1.4em;
+}
+
+h3 {
+	font-size: 2em;
+	line-height:1.5em;
+}
+
+#read-more {
+	text-decoration:none;
+	border-bottom: 0.1em dashed #446830;
+	color: #446830;
+}
+
+#read-more:hover {
+	text-decoration:none;
+	border-bottom: 0.1em dashed #5e834a;
+	color: #5e834a;
+}
+
+#blackout {
+	margin-top: 10px;
+}
+
+#left {
+	width: 72%;
+	margin-top: 2%;
+	overflow:auto;
+}
+
+#left img {
+	float:left;
+}
+
+#left #pic1 {
+	padding-right: 48px;
+}
+
+#left #pic2 {
+	width: 300px;
+}
+
+#article3 {
+	padding-left: 60px;
+}
+
+#right {
+	width:20%;
+	float:right;
+	
+}
+
+#right img {
+	float:right;
+	width: 40%;
+}
+
+</style>
+
+<link rel="stylesheet" href="css/mobile.css" type="text/css" media="only screen and (max-width: 767px)">
+
+<title>The Type Style</title>
+</head>
+
+<body>
+<div id="wrapper">
+
+<header>
+<h1><a href="/">Welcome to The Type Style //</a></h1>
+<h2>essays on type design online</h2>
+<div id="league"><a href="http://www.theleagueofmoveabletype.com/" title="The League of Moveable Type"><img src="images/logo-tiny-text.png" alt="League of Moveable Type"></a></div>
+
+<div class="clearfix"></div>
+
+</header>
+
+<article id="article1"> <a href="http://www.theleagueofmoveabletype.com/blackout" target="_blank"><img src="images/blackout.jpeg" alt="Blackout" id="blackout" border="0"></a>
+<div id="article1-text"><h3><strong>Blackout.</strong></h3>Eats holes for breakfast lunch and dinner. Inspired by filling in sans-serif newspaper headlines. Continually updated with coffee and music. Makes your work louder than the next person’s.Comes in three styles: Midnight (solid), 2AM (reversed), &amp; Sunrise (stroked).<br><br><a href="http://www.theleagueofmoveabletype.com/blackout" target="_blank" id="read-more"><strong>Read more about Blackout</strong></a></div>
+</article>
+
+<div id="left">
+
+<img src="images/ostrich.jpg" id="pic1">
+
+<img src="images/linden-hill-1.jpg" id="pic2">
+
+</div>
+
+<div class="clearfix"></div>
+
+<div id="right">
+
+<img src="images/linden-hill-1.jpeg">
+
+</div>
+
+<footer>
+</footer>
+
+</div>
+</body>
+</html>

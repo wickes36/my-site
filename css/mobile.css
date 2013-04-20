@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper {
+	width: 300px;
+}
+
+
+#blackout {
+	width:300px!important;
+	overflow: hidden;
+}
+
+#league {
+	padding-top: 20px;
+}
+
+#article1-text {
+	width:auto;
+	float:none;
+}
